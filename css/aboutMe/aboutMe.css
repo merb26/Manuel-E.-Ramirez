@@ -1,5 +1,32 @@
 .aboutMe {
-  background-color: black;
-  color: white;
+  background-color: #ffc107;
+  color: black;
+}
+
+.aboutMe .picture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.aboutMe .description {
+  margin: 10px 50px 50px 50px;
+}
+
+.aboutMe .description .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 50px;
+  font-size: 30px;
 }
 /*# sourceMappingURL=aboutMe.css.map */
