@@ -1,19 +1,21 @@
-.aboutMe{
+.about_me {
     background-color: #ffc107;
     color: black;
 
-    .picture {
+    &__picture {
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    .description {
+    &__description {
         margin: 10px 50px 50px 50px;
-        .title{
+
+        &__title {
             display: flex;
             justify-content: center;
             margin: 50px;
+            margin-bottom: 1.5rem;
             font-size: 30px;
         }
     }
